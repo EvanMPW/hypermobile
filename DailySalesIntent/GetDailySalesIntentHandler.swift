@@ -12,13 +12,13 @@ class GetDailySalesIntentHandler: NSObject, GetDailySalesIntentHandling {
 
     func handle(intent: GetDailySalesIntent, completion: @escaping (GetDailySalesIntentResponse) -> Void) {
         
-        let username = "ewilliams"
+        let username = "username"
         let password = "password"
         let loginMode = 1
-        let baseRestURL = "https://env-112079.customer.cloud.microstrategy.com/MicroStrategyLibrary/api/" //path to MSTR library API
+        let baseRestURL = "https://env-xxxxx.customer.cloud.microstrategy.com/MicroStrategyLibrary/api/" //path to MSTR library API
         let datasetType = "reports" //choose reports or cubes
-        let datasetID = "12EC4CA611E8E89A570C0080EFC5B0B1" //cube or report id
-        let projectID = "9FBA360E11E8488E24FF0080EF253654" //project id
+        let datasetID = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" //cube or report id
+        let projectID = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" //project id
         
         //set full URLs for logging in and publishing dataset instance
         let loginURL = URL(string: baseRestURL + "auth/login")
