@@ -28,6 +28,7 @@
 		20230642219C67BB00532C2A /* GetDailySalesIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20230640219C67BB00532C2A /* GetDailySalesIntentHandler.swift */; };
 		20230643219C67BB00532C2A /* GetDailySalesIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20230640219C67BB00532C2A /* GetDailySalesIntentHandler.swift */; };
 		20230644219C864B00532C2A /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20230627219C667500532C2A /* IntentViewController.swift */; };
+		20C22E2F219E441600DF532E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 20C22E2E219E441600DF532E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		20230640219C67BB00532C2A /* GetDailySalesIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDailySalesIntentHandler.swift; sourceTree = "<group>"; };
 		20230645219C89BC00532C2A /* DailySalesIntent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DailySalesIntent.entitlements; sourceTree = "<group>"; };
 		20230646219C89C900532C2A /* DailySalesIntentUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DailySalesIntentUI.entitlements; sourceTree = "<group>"; };
+		20C22E2E219E441600DF532E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				2023060E219C662700532C2A /* Info.plist */,
 				20230606219C662600532C2A /* hypermobile.xcdatamodeld */,
 				2023063A219C669100532C2A /* Intents.intentdefinition */,
+				20C22E2E219E441600DF532E /* README.md */,
 			);
 			path = hypermobile;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			files = (
 				2023060D219C662700532C2A /* LaunchScreen.storyboard in Resources */,
 				2023060A219C662700532C2A /* Assets.xcassets in Resources */,
+				20C22E2F219E441600DF532E /* README.md in Resources */,
 				20230605219C662600532C2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
