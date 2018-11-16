@@ -117,6 +117,7 @@
 		202305F3219C662600532C2A = {
 			isa = PBXGroup;
 			children = (
+				20C22E2E219E441600DF532E /* README.md */,
 				202305FE219C662600532C2A /* hypermobile */,
 				2023061A219C667500532C2A /* DailySalesIntent */,
 				20230626219C667500532C2A /* DailySalesIntentUI */,
@@ -147,7 +148,6 @@
 				2023060E219C662700532C2A /* Info.plist */,
 				20230606219C662600532C2A /* hypermobile.xcdatamodeld */,
 				2023063A219C669100532C2A /* Intents.intentdefinition */,
-				20C22E2E219E441600DF532E /* README.md */,
 			);
 			path = hypermobile;
 			sourceTree = "<group>";
