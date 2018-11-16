@@ -6,6 +6,8 @@ A standalone iOS app based on the MicroStrategy REST API. Allows use of Siri to 
 
 ### Prerequisites
 
+* XCode
+
 ## Configuration
 
 ### Configuring Intent
